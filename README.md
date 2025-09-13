@@ -93,18 +93,18 @@ Once both the backend and frontend servers are running, open your web browser an
 
 BradChat is continuously evolving. Here are some of the planned features and improvements:
 
-*   **Version 1.1 - Enhanced User Experience**
-    *   User authentication and profile creation.
-    *   Improved chat UI/UX with message timestamps and user indicators.
-    *   Basic moderation tools for chat rooms.
-*   **Version 1.2 - Advanced Features**
-    *   Private messaging between specific users.
-    *   Ability to report inappropriate content or users.
-    *   Customizable user avatars or display names.
+*   **Version 1.1 - DB setup and endpoints**
+    *   User authentication and message creation.
+    *   Work on endpoints.
+    *   Finish backend.
+*   **Version 1.2 - Frontend**
+    *   Get the backend to connect frontend.
+    *   Login and Signup.
+    *   Chats page.
 *   **Future Goals**
     *   Deployment to a production environment.
     *   Scalability improvements for handling more concurrent users.
-    *   Integration with third-party services (e.g., emoji support).
+    *   Get this completely done and modernlized.
 
 
 ## 🤝 Contribution Guidelines
