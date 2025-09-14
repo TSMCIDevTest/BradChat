@@ -1,3 +1,13 @@
+/**
+ * Build a complete HTML welcome email for a new BradChat user.
+ *
+ * The returned HTML is a full document (DOCTYPE + html) styled with inline CSS
+ * and includes a personalized greeting and a call-to-action button.
+ *
+ * @param {string} name - Display name inserted into the greeting ("Hello {name},").
+ * @param {string} clientURL - URL used as the CTA button href (opens BradChat).
+ * @returns {string} A complete HTML document string suitable for sending as an email body.
+ */
 export function createWelcomeEmailTemplate(name, clientURL) {
   return `
   <!DOCTYPE html>
