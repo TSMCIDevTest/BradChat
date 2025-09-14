@@ -40,6 +40,13 @@ Ensure you have Node.js and npm (or Yarn) installed.
     cd BradChat
     ```
 
+1.  **Rename the backend example env to .env:**
+
+    ```bash
+    cp backend/exampleemv.txt backend/.env
+    ```
+
+
 2.  **Install Backend Dependencies:**
 
     Navigate to the `backend` directory and install the required packages in the root of the repo.
