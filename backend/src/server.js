@@ -6,10 +6,12 @@ import authRoutes from './routes/auth.route.js';
 import messageRoutes from './routes/message.route.js';
 import { connectDB } from './lib/db.js';
 import { ENV } from './lib/env.js';
+import cors from "cors";
 
 const app = express();
 
 app.use(express.json()); // req.body
+app.use(cors({ origin: ENV.CLIENT_URL, credentials: true })); // to allow requests from frontend
 app.use(cookieParser());
 
 const __dirname = path.resolve();
