@@ -5,7 +5,7 @@ import NoConversationPlaceholder from '../components/NoConversationPlaceholder';
 import ChatContainer from '../components/ChatContainer';
 import ChatList from '../components/ChatList';
 import ContactList from '../components/ContactList';
-import ActiveTabSwitch from '../components/activeTabSwitch';
+import ActiveTabSwitch from '../components/ActiveTabSwitch';
 import ProfileHeader from '../components/ProfileHeader';
 
 function ChatPage() {

@@ -2,7 +2,7 @@ import React from 'react'
 
 function ActiveTabSwitch() {
   return (
-    <div>activeTabSwitch</div>
+    <div>ActiveTabSwitch</div>
   )
 }
 
