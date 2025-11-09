@@ -25,8 +25,8 @@ function ChatList() {
             <div className="size-12 rounded-full">
               <img src={chat.profilePic || "/avatar.png"} alt={chat.fullName} />
             </div>
-            <h4 className="text-slate-200 font-medium truncate">{chats.fullName}</h4>
           </div>
+          <h4 className="text-slate-200 font-medium truncate">{chats.fullName}</h4>
         </div>
       </div>
     ))}
