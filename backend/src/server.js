@@ -10,7 +10,7 @@ import cors from "cors";
 
 const app = express();
 
-app.use(express.json()); // req.body
+app.use(express.json({limit: "5mb"})); // req.body
 app.use(cors({ origin: ENV.CLIENT_URL, credentials: true })); // to allow requests from frontend
 app.use(cookieParser());
 
