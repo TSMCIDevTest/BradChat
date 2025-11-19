@@ -1,5 +1,5 @@
-[phases.setup]
-nixPkgs = ["nodejs_22"]
+[config]
+nixOverlays = ["./.nixpacks/overrides.nix"]
 
-[variables]
-NODE_VERSION = "22.12.0"
+[build]
+nodeEngine = "22.12.0"
