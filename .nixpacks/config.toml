@@ -1,5 +1,0 @@
-[config]
-nixOverlays = ["./.nixpacks/overrides.nix"]
-
-[build]
-nodeEngine = "22.12.0"
